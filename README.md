@@ -5,6 +5,7 @@ We've created the PlanMyTrip App which intakes user input for the temperature ra
 
 ## Resources:
 Data Source: Open Weather Map API, Google Maps API, WeatherPy_database.csv, WeatherPy_vacation.csv
+
 Software: Python 3.7.6, Jupyter Notebook, Matplotlib, Numpy, Pandas, Citipy, Requests & datetime modules
 
 ## Analysis
@@ -40,7 +41,7 @@ Finally, we use the created list of hotel and city data within the desired tempo
 **Picture 3.1: Example map with travel itinerary driving route**
 ![Example map with travel itinerary driving route](https://github.com/joshuanallen/World_Weather_Analysis/blob/213c6a863406eff220e8b60886146fb5e0300147/Vacation_Itinerary/WeatherPy_travel_map.png)
 
-5. Using the gmaps marker layer we plotted the four derstination cities on a map populated with the hotel, city, and weather information
+5. Using the gmaps marker layer we plotted the four derstination cities on a map populated with the hotel, city, and weather information. (See Picture 3.2)
 
 **Picture 3.2: Example map with travel itinerary city and hotel info**
 ![Example map with travel itinerary city and hotel info](https://github.com/joshuanallen/World_Weather_Analysis/blob/213c6a863406eff220e8b60886146fb5e0300147/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
