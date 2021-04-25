@@ -22,7 +22,7 @@ First, we created a list of cities and found the local weather for those cities.
 
 ### Plotting cities within user's desired temperature range
 Next, we imported the above list of cities and their current weather to isolate those that fall within the user's requested temperature range.
-1. We imported the city data with the Open Weather Map data into a dataframe. Then we isolated those that fell within the user's input for ideal temperature range.
+1. We imported the city data with the Open Weather Map data into a dataframe. Then we isolated those that fell within the user's input for ideal temperature range (70-85 degrees Farenheit in this example).
 2. Using the Google Maps API we pulled in the closest hotel within 5000m of the coordinates for cities that fall within the set temperature range.
 3. The qualifying cities with hotel data is exported to csv file
 4. Using gmaps module we plotted the cities with hotels in range on a world map. (See Picture 2.1)
