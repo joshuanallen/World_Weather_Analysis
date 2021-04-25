@@ -17,7 +17,7 @@ First, we created a list of cities and found the local weather for those cities.
 3. Using Open Weather Map's API we attributed the current weather of the cities found by the citipy module and placed the data in a dataframe (See Picture 1.1) and exported to a csv file.
 
 **Picture 1.1: Example Open Weather Map API dataframe**
-***Insert city data dataframe***
+![Example Open Weather Map API dataframe](https://github.com/joshuanallen/World_Weather_Analysis/blob/213c6a863406eff220e8b60886146fb5e0300147/city_data_df.png)
 
 ### Plotting cities within user's desired temperature range
 Next, we imported the above list of cities and their current weather to isolate those that fall within the user's requested temperature range.
@@ -27,7 +27,7 @@ Next, we imported the above list of cities and their current weather to isolate 
 4. Using gmaps module we plotted the cities with hotels in range on a world map. (See Picture 2.1)
 
 **Picture 2.1: Example map with city and hotel info within user input temperature range**
-****Insert world map pic with hotel/city info****
+![Example map with city and hotel info within user input temperature range](https://github.com/joshuanallen/World_Weather_Analysis/blob/213c6a863406eff220e8b60886146fb5e0300147/Vacation_Search/WeatherPy_vacation_map.png)
 
 
 ### Creating a travel itinerary
@@ -38,10 +38,12 @@ Finally, we use the created list of hotel and city data within the desired tempo
 4. Using Gmaps directions layer we plotted driving directions to create a round trip itinerary to the four identified cities. (See Picture 3.1)
 
 **Picture 3.1: Example map with travel itinerary driving route**
+![Example map with travel itinerary driving route](https://github.com/joshuanallen/World_Weather_Analysis/blob/213c6a863406eff220e8b60886146fb5e0300147/Vacation_Itinerary/WeatherPy_travel_map.png)
 
 5. Using the gmaps marker layer we plotted the four derstination cities on a map populated with the hotel, city, and weather information
 
 **Picture 3.2: Example map with travel itinerary city and hotel info**
+![Example map with travel itinerary city and hotel info](https://github.com/joshuanallen/World_Weather_Analysis/blob/213c6a863406eff220e8b60886146fb5e0300147/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 ## Conclusions
 Using the Open Weather Map API and Google Maps API we were able to create a mock travel itnerary for a user looking to vacation in four cities within a desired temperature range.
